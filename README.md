@@ -17,18 +17,11 @@ presets with colors work but ymmv with rgb wiring...
 built using https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_light
 and https://github.com/kylezimmerman/pyledshop as a base.
 
-<<<<<<< HEAD
-
-### Installation
-
-Copy or clone this into `<config_dir>/custom_components/sp108e_ws2815/`.
-=======
 added conifg_flow to support adding devices via the ha ui. host (ip address) and name are required
 for each controller.
 
 ### Installation
 
 Copy or clone into `<config_dir>/custom_components/sp108e_ws2815/`.
->>>>>>> ac9f4ee1aff9cfc217c0e95e619aac1c15196388
 
 if your upgrading remove old configuration.yaml entry.
