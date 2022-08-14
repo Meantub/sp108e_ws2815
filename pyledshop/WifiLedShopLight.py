@@ -125,12 +125,6 @@ class WifiLedShopLight(LightEntity):
     if ATTR_BRIGHTNESS in kwargs:
         self.set_brightness(kwargs[ATTR_BRIGHTNESS])
 
-<<<<<<< HEAD
-    if ATTR_WHITE_VALUE in kwargs:
-        self.set_white(kwargs[ATTR_WHITE_VALUE])
-
-=======
->>>>>>> ac9f4ee1aff9cfc217c0e95e619aac1c15196388
     if ATTR_HS_COLOR in kwargs:
         r,g,b = color_util.color_hs_to_RGB(*kwargs[ATTR_HS_COLOR])
         self.set_color(r, g, b)
@@ -146,12 +140,6 @@ class WifiLedShopLight(LightEntity):
         self.toggle()
     else:
         print('already on')
-<<<<<<< HEAD
-    else:
-        self.toggle()
-
-=======
->>>>>>> ac9f4ee1aff9cfc217c0e95e619aac1c15196388
 
   def turn_off(self):
     if self._state.is_on:
